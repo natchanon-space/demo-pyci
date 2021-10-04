@@ -10,6 +10,7 @@ git:
 # Install dependencies
 install:
   - pip install -r requirements.txt
+  - pip install codecov
     
 # script to run tests. Script can have many commands, one per line.
 script: 
@@ -17,4 +18,7 @@ script:
 
 after_script:
   - bash <(curl -s https://codecov.io/bash)
+
+after_success:
+  - codecov
   
