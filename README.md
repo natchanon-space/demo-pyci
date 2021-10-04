@@ -1,6 +1,7 @@
 Continuous Integration Demo
 ============================
 [![Build Status](https://app.travis-ci.com/natchanon-space/demo-pyci.svg?branch=master)](https://app.travis-ci.com/natchanon-space/demo-pyci)
+[![codecov](https://codecov.io/gh/natchanon-space/demo-pyci/branch/master/graph/badge.svg?token=IPF2OOXOBS)](https://codecov.io/gh/natchanon-space/demo-pyci)
 
 
 This project demonstrates use of Travis CI to build and test a Python project.  
